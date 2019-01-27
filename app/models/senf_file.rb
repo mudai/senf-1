@@ -1,0 +1,2 @@
+class SenfFile < ApplicationRecord
+end
