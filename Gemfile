@@ -38,10 +38,13 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 # delayed job
 gem 'delayed_job_active_record'
+gem 'daemons'
 
 # tika
 gem 'tika-app'
 
+# カード番号チェッカー
+gem 'credit_card_validator'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
